@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgba(178, 252, 203, 0.459);
+}
+.tab-btn{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tab-btn button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: .4s;
+    font-size: 17px;
+}
+
+.tab-btn button:hover{
+    background-color: #ddd;
+}
+.tab-btn button:active{
+    background-color: #ccc;
+}
+
+.tab-content{
+    display: none;
+    width: 70%;
+   
+    border: 1px solid #ccc;
+    border-top: none;
+    margin: 0 auto;
+}
+
+.tab-content h1, p{
+    padding: 6px 14px;
+}
